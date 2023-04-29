@@ -1,0 +1,184 @@
+<h1 align="center"><i>SD_Foundation</i></h1>
+
+
+
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @import "reset.css";
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: lightgray;
+}
+
+.centrediv {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a1 {
+  height: 100px;
+  width: 100px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 10;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+a i {
+  transition: all 0.3s linear;
+  padding-top: 30px;
+}
+.a1:hover i {
+  transform: scale(1.4);
+}
+
+.fa-instagram {
+  color: #e84393;
+}
+.fa-linkedin {
+  color: #0097e6;
+}
+.fa-twitter {
+  color: #0097e6;
+}
+
+footer {
+  height: 320px;
+  background-color: cornsilk;
+}
+#fp {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#tbl {
+  margin-left: 5%;
+  display: flex;
+}
+
+tr {
+  padding: 20px;
+}
+
+#vdo {
+  display: flex;
+}
+#brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- crausal -->
+
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://source.unsplash.com/1400x400/?nature,water" class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/1400x400/?nature,forest" class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/1400x400/?nature,water" class="d-block w-100" alt="img">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- footer -->
+      <div>
+        <footer>
+          <p id="fp"> <b>Contact Us</b></p>
+          
+          <div class="centrediv">
+            <a class="a1" href="https://www.facebook.com/sumit.agale.127" target="_blank">
+              <i class="fa fa-2x fa-facebook"> </i>
+            </a>
+      
+            <a class="a1" href="https://www.instagram.com/agale_sumit/" target="_blank">
+              <i class="fa fa-2x fa-instagram"> </i>
+            </a>
+      
+            <a class="a1" href="https://www.linkedin.com/in/sumit-agale-a98b2a20b/" target="_blank">
+              <i class="fa fa-2x fa-linkedin"> </i>
+            </a>
+      
+            <a class="a1" href="https://www.facebook.com/sumit.agale.127" target="_blank">
+              <i class="fa fa-2x fa-twitter"> </i>
+              
+            </a>
+            <br/>
+          </div>
+          <br>
+          <div align="center">
+            <div><i class="fa fa-1x fa-phone"> 9322952900 </i></div>
+          <div><i class="fa fa-1x fa-envelope">  agalesumit111@gmail.com </i></div>
+          
+          <div > © 2023 SD_Foundation. All rights reserved. </div>
+          </div>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
